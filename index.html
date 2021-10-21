@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ConvMonedas</title>
+    
+</head>
+<body>
+    <div id=caja1>
+        <div id=imagen>
+            <div class="imagen1">
+                <img src="imagenes/imagen1.JPG" alt="imagenfoto">
+
+            </div>
+            
+            <form id= "formulario">
+                <input id="dinero" type="number" placeholder="Cantidad de dinero ">
+                <br>
+                <br>
+                <select id="de">
+                    <option value="1">Dolar</option>
+                    <option value="2">Peso Mexicano</option>
+                    <option value="3">COP</option>
+                    <option value="4">EU</option>
+                    <option value="5">Libra Esterlina</option>
+                </select>
+                
+
+                <select id="a">
+                    <option value="1">Dolar</option>
+                    <option value="2">Peso Mexicano</option>
+                    <option value="3">COP</option>
+                    <option value="4">EU</option>
+                    <option value="5">Libra Esterlina</option>
+                </select>
+                <label for="res">Resultado
+                    <input id="res" type="text">
+                </label>
+                <button id="convertir" readonly >Convertir</button>
+            </form>
+               
+                
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+
+</body>
+</html>
